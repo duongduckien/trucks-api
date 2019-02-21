@@ -1,0 +1,29 @@
+{
+  "name": "trucks-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongduckien/trucks-api.git"
+  },
+  "author": "Duong Kien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duongduckien/trucks-api/issues"
+  },
+  "homepage": "https://github.com/duongduckien/trucks-api#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.32"
+  }
+}
